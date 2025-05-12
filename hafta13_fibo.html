@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>fibonacci</title>
+</head>
+
+<body>
+    <script>
+        let toplam = 0;
+
+        function fibo(n) {
+            if (n < 1) {
+                return;
+            }
+            console.log(n);
+            toplam = toplam + n;
+            fibo(n - 5);
+        }
+
+        let n = 100;
+        fibo(n);
+        console.log("Toplam:", toplam);
+    </script>
+</body>
+
+</html>
