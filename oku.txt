@@ -1,0 +1,6 @@
+hafta13_fibo.html
+Bu kod, 100’den başlayarak 5’er 5’er azalan sayıları fibo fonksiyonu ile yazdırıyor ve toplamlarını toplam değişkeninde biriktiriyor.
+Fonksiyon, n sıfırdan küçük olana kadar kendini çağırıyor.
+En sonunda, çağrılar bittikten sonra toplam değerini konsola yazdırıyor.
+Fibonacci dizisiyle doğrudan ilgisi yok, aslında her çağrıda n değerini azaltarak 5’in katlarını topluyor.
+Özetle, 100, 95, 90, ... şeklinde sayıları toplayan ve yazdıran basit bir  fonksiyon örneği.
